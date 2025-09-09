@@ -1,0 +1,21 @@
+Homework usestate
+React nima o’zi : 
+Fragment nima : Fragment Bu bir nechta elementlarni div yoki section va shunga o’xshagan kodlarsiz bitta to’plam qilib berib Bola sifatida saqlab beradi
+1.	Props nima: Props bu reactdagi funksiyaga parameter berish yo’li hisoblanadi va biz parametrni ota elemetndan berib yuboramiz
+2.	Children: Bu ham propsga o’xshash desktruktion qilib olamiz va keyin uni berib qo’ysak ota elemtnga ayalnadi yani malum bir kodni olib o’sha kerak bo’lgan joyga children deb yozsak o’sha element ichiga joylab beradi
+3.	Class componentdan function componentga o’tilganini asosiy sababi class componentlarda hoop ishlamaydi
+4.	2-xil hook bor kostumniy hoop reactdan keladigan hoop bor 
+kostumniy hoop bu Qo’lda yasaladigan hoop react hoop esa react tomonidan avtomatik beriladigan hoop
+5.	Hookni asosiy qonun qoidasi 
+hoopni function Ichida ishlatib yoki chaqirib bo’lmaydi
+hoopni Ichida boshqa hook ishlatsa bo’ladi
+hoop har doim use So’zi bilan boshlanadi
+6.	Virtual dom va real dom 
+Virtual dom real domdan nusxa oladi keyin biza real domlarni qaysidir qismini o’zgaritisak u o’zini virtual dom bilan taqqoslaydi va faqat kerakli joyini o’zgartiradi bu kodni qayta qayta render bo’lishini olidni oladi
+7.	Usestate Bu virtual agar biz javascript yordmaida ma’lum bir narsani o’zgartirsak virtual real domni o’zgartrira olmaymiz biz usestate va shular orqali o’zgartisak bo’ladi
+
+Conditional rendering 
+8.	Bu ma’lumotlarni tekshirish if else o’xshaydi bittasi Bular ternary if else va va && and operator
+9.	If else va ternnory bir xil ishlaydi
+10.	&& va operatori faqat true bo’lsa ishlayid
+
