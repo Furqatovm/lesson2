@@ -2,6 +2,7 @@ import Client from "./client";
 import Discount from "./discount";
 import Header from "./header";
 import Hero from "./hero";
+import Question from "./question";
 import Second from "./second";
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <Second />
       <Client />
       <Discount />
+      <Question />
     </div>
   );
 }
