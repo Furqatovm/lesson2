@@ -8,8 +8,8 @@ const Question = () => {
   return (
     <section className='max-w-[1240px] mx-auto px-[1rem] py-[1rem]'>
         <h3 className='text-black text-[2.25rem] font-semibold text-center'>Частые вопросы</h3>
-            <div className='flex justify-between w-[100%]  mt-[2rem]'>
-                <div className='flex flex-col gap-[14px] w-[49%]'>
+            <div className='flex justify-between w-[100%]  mt-[2rem] max-md:flex-col'>
+                <div className='flex flex-col gap-[14px] w-[49%] max-md:w-full'>
                     <div className='flex flex-col gap-[4px] p-[22px] bg-[#F8F8F9] rounded-[10px]'>
                       <div className='flex justify-between items-center'>
                       <strong>Почему цены на ваши услуги ниже, чем у конкурентов?</strong>
@@ -60,7 +60,7 @@ const Question = () => {
 
                 </div>
 
-                <div className='flex flex-col gap-[14px] w-[49%]'>
+                <div className='flex flex-col gap-[14px] w-[49%] max-md:w-full'>
                     <div className='flex flex-col gap-[4px] p-[22px] bg-[#F8F8F9] rounded-[10px]'>
                       <div className='flex justify-between items-center'>
                       <strong>Почему цены на ваши услуги ниже, чем у конкурентов?</strong>

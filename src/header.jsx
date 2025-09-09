@@ -7,7 +7,7 @@ const Header = () => {
         <div className='max-w-[1250px] mx-auto px-[1rem] flex justify-between items-center'>
             <nav className='flex items-center gap-[2.5rem]'>
             <img src={Logo}  className='max-w-[135px] w-full' alt="" />
-                <div className='flex items-center gap-[20px]'>
+                <div className='flex items-center gap-[20px] max-md:hidden'>
                     <a href="#" className='text-[#000000]'>Услуги</a>
                     <a href="#" className='text-[#000000]'>Преимущества</a>
                     <a href="#" className='text-[#000000]'>Отзывы</a>
