@@ -1,5 +1,6 @@
 import Client from "./client";
 import Discount from "./discount";
+import Footer from "./footer";
 import Header from "./header";
 import Hero from "./hero";
 import Question from "./question";
@@ -14,6 +15,7 @@ const App = () => {
       <Client />
       <Discount />
       <Question />
+      <Footer />
     </div>
   );
 }
